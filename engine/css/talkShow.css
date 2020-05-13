@@ -1,0 +1,153 @@
+body{
+	margin:0;
+	padding:0; 	
+	text-align:center;
+	font-family:trebuchet ms;
+	/*
+	background:url(../imgs/Wall-E-10opacity.png)no-repeat bottom;
+	background-size:320px;
+	background-position:right 1200px;
+	*/
+	background:url(../imgs/wall-e2.jpg)no-repeat bottom;	
+	background-size:cover;
+	background-color:#f2f5f7;
+	
+}
+h1{
+	display:inline-block;
+	width:100%;
+	font-family:arial;
+	padding:40px 0 10px 0;
+	margin:0 0 0 0;
+}
+.talkShow{
+	display:inline-block;
+	max-width:90%;		
+	height:80%;
+	background-color:;	
+	position:fixed;
+	bottom:0;
+	right:0;
+	margin:0 20px 0.5% 0;	
+	z-index:9;		
+}
+.ts_button{
+	display:inline-block;
+	border-radius:50%;
+	padding:0;
+	background-color:;
+	border:0;
+	outline:none;
+	line-height: 2.5;
+	width:65px;
+	height:65px;
+	cursor:pointer;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:9;
+	margin:0 5px 5 0;	
+}
+.ts_button:hover{
+	background-color:;
+}
+.ts_button li{
+	display:inline-block;
+	margin:14px -2px 0 0;
+}
+.ts_button span{
+	display:inline-block;
+}
+.ts_button .icon{
+	font-size:39px;
+	color:;	
+	transition:0.15s;
+}
+.ts_button_icon_first_stage_size{
+	font-size:39px;
+}
+.ts_button_icon_second_stage_size{
+	font-size:22px!important;
+	margin:0px 0 0 2px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.ts_button text{
+
+}
+.ts_content{
+	display:none;
+	background-color:#FFF;
+	width:400px;
+	max-width:100%;
+	height:;
+	margin:-1% 10px 0 0;
+	border-radius:5px;
+	box-shadow:0 0 15px 1px rgba(0,0,0,0.05);
+}
+.ts_c_header{
+	display:inline-block;
+	width:100%;
+	padding:5px 0 5px 0;
+	height:70px;
+	border-radius:5px 5px 0 0;
+	text-align:;
+}
+.ts_c_header ul{
+	display:inline-block;
+	width:90%;
+	padding:0;
+	margin:10px 0 0 0;
+	text-align:left;
+}
+.ts_c_header li{
+	display:inline-block;
+	width:;
+}
+.ts_c_header li span{
+	display:inline-block;
+	float:left;		
+}
+.ts_c_header li .icon{
+	margin:5px 0 -8px 0;
+}
+.ts_c_header .big_size_icon{
+	font-size:47px;
+	color:#FFF;		
+}
+.ts_c_header li .text{
+	
+}
+.ts_c_header .big_size_text{
+	font-size:32px;
+	color:#FFF;
+}
+.ts_c_header .normal_size_text{
+	font-size:15px;
+	color:#eaf1f9;
+	margin:0 0 8px 0;
+}
+.ts_c_h_left_side{
+	display:inline-block;
+	float:left;
+}
+.ts_c_h_right_side{
+	display:inline-block;
+	float:right;
+	font-size:28px;
+	color:#f5f5f5;
+}
+.ts_c_h_right_side li{
+	margin:7px 0 0 0;
+	cursor:pointer;
+}
+.ts_c_h_right_side li:hover{
+	color:#FFF;
+}
+.btn_close_ts_c_body{
+	color:rgba(0,0,0,0.2);
+}
+.ts_c_body{
+	display:inline-block;
+	width:100%;
+}	
